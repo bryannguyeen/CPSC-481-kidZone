@@ -1,2 +1,4 @@
-# CPSC-481-kidZone
+# kidZone
+
+CPSC 481
 
