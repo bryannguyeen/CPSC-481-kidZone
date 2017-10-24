@@ -5,10 +5,17 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:kidZone"
       mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
+      d:DesignHeight="1080" d:DesignWidth="1920"
       Title="Page4">
 
     <Grid>
-        
+        <Label x:Name="Title" Content="Select a picture" HorizontalAlignment="Center" Height="140" Margin="581,33,579,0" VerticalAlignment="Top" Width="760" FontSize="100" FontFamily="Segoe UI Black"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="140" Margin="581,33,579,0" VerticalAlignment="Top" Width="760"/>
+        <Image x:Name="angry_png" Margin="785,320,785,460" Source="angry.png" Stretch="Fill"/>
+        <Image x:Name="crown_png" Margin="148,722,1422,58" Source="crown.png" Stretch="Fill"/>
+        <Image x:Name="smiley_face_png" Margin="156,323,1431,457" Source="smiley face.png" Stretch="Fill"/>
+        <Image x:Name="heart_png" Margin="1426,325,144,455" Source="heart.png" Stretch="Fill"/>
+        <Image x:Name="star_png" Margin="788,719,782,61" Source="star.png" Stretch="Fill"/>
+        <Image x:Name="snowflake_png" Margin="1428,720,142,60" Source="snowflake.png" Stretch="Fill"/>
     </Grid>
 </Page>
