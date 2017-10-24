@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\brand\source\repos\kidZone\kidZone\obj\Debug\
+C:\Users\Carlin\Documents\GitHub\CPSC-481-kidZone\kidZone\obj\Debug\
 kidZone
 none
 false
 DEBUG;TRACE
-C:\Users\brand\source\repos\kidZone\kidZone\App.xaml
-11151548125
+C:\Users\Carlin\Documents\GitHub\CPSC-481-kidZone\kidZone\App.xaml
+6-1519978308
 
-91731564760
+141314929219
 131569487696
-MainWindow.xaml;
+MainWindow.xaml;MainMenu.xaml;LockoutPinPad.xaml;LockoutTimeSelect.xaml;ChooseProfilePic.xaml;EnterPin.xaml;
 
 True
 
