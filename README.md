@@ -1,6 +1,4 @@
-# kidZone
-
-CPSC 481
+# kidZone ![CI status](https://img.shields.io/badge/CPSC-481-orange.svg)
 
 ## Team Members
 
