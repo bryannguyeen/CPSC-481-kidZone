@@ -118,5 +118,14 @@
   <ItemGroup>
     <Resource Include="snowflake.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cartoonBear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="backbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cartoonBear.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

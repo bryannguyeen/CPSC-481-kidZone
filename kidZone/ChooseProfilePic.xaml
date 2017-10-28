@@ -5,17 +5,30 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:kidZone"
       mc:Ignorable="d" 
-      d:DesignHeight="1080" d:DesignWidth="1920"
+      d:DesignHeight="720" d:DesignWidth="1280"
       Title="Page4">
 
-    <Grid>
-        <Label x:Name="Title" Content="Select a picture" HorizontalAlignment="Center" Height="140" Margin="581,33,579,0" VerticalAlignment="Top" Width="760" FontSize="100" FontFamily="Segoe UI Black"/>
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="140" Margin="581,33,579,0" VerticalAlignment="Top" Width="760"/>
-        <Image x:Name="angry_png" Margin="785,320,785,460" Source="angry.png" Stretch="Fill"/>
-        <Image x:Name="crown_png" Margin="148,722,1422,58" Source="crown.png" Stretch="Fill"/>
-        <Image x:Name="smiley_face_png" Margin="156,323,1431,457" Source="smiley face.png" Stretch="Fill"/>
-        <Image x:Name="heart_png" Margin="1426,325,144,455" Source="heart.png" Stretch="Fill"/>
-        <Image x:Name="star_png" Margin="788,719,782,61" Source="star.png" Stretch="Fill"/>
-        <Image x:Name="snowflake_png" Margin="1428,720,142,60" Source="snowflake.png" Stretch="Fill"/>
+    <Grid Background="#FFC0D6F9">
+        <Label x:Name="Title" Content="Select a picture" Height="114" Margin="369,9,369,0" Width="542" FontSize="70" FontFamily="Segoe UI Black" VerticalAlignment="Top" FontWeight="Bold" Foreground="White"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="207" Margin="153,121,0,0" VerticalAlignment="Top" Width="221">
+            <Image x:Name="smiley_face_png" Margin="19,16" Source="smiley face.png" Stretch="Fill"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="207" Margin="515,129,0,0" VerticalAlignment="Top" Width="221">
+            <Image x:Name="cartoonBear_jpg1" Margin="19,8,19,7" Source="cartoonBear.jpg" Stretch="Fill"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="207" Margin="879,129,0,0" VerticalAlignment="Top" Width="221">
+            <Image x:Name="heart_png" Margin="14,16" Source="heart.png" Stretch="Fill"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="207" Margin="147,357,0,0" VerticalAlignment="Top" Width="221">
+            <Image x:Name="crown_png" Margin="14,15,14,16" Source="crown.png" Stretch="Fill"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="207" Margin="515,357,0,0" VerticalAlignment="Top" Width="221">
+            <Image x:Name="star_png" Margin="14,16" Source="star.png" Stretch="Fill"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="207" Margin="879,357,0,0" VerticalAlignment="Top" Width="220">
+            <Image x:Name="snowflake_png" Margin="14,16" Source="snowflake.png" Stretch="Fill"/>
+        </Border>
+        <Image x:Name="backbutton_png" Margin="31,29,1165,617" Source="backbutton.png" Stretch="Fill"/>
+        <Button x:Name="button" Content="Okay" HorizontalAlignment="Left" Margin="1077,610,0,0" VerticalAlignment="Top" Width="133" Height="74" Background="#FFCADEE6" Click="button_Click" FontFamily="Segoe UI Black" FontSize="36" Foreground="Black" BorderBrush="Black"/>
     </Grid>
 </Page>
