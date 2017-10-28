@@ -54,6 +54,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="BryanEnterPin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="ChooseProfilePic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -65,6 +69,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BryanEnterPin.xaml.cs">
+      <DependentUpon>BryanEnterPin.xaml</DependentUpon>
     </Compile>
     <Compile Include="ChooseProfilePic.xaml.cs">
       <DependentUpon>ChooseProfilePic.xaml</DependentUpon>
@@ -126,6 +133,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="cartoonBear.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="backspace.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
