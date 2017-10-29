@@ -9,8 +9,8 @@
       Title="Page5">
 
     <Grid Background="#FFC0D6F9">
-        <Image x:Name="backbutton_png" Margin="31,29,1165,617" Source="backbutton.png" Stretch="Fill"/>
-        <Label x:Name="Title" Content="Enter Pin" Height="62" Margin="385,29,668,0" FontSize="48" FontFamily="Segoe UI Black" VerticalAlignment="Top" FontWeight="Bold" Foreground="White"/>
+        <Image x:Name="backbutton_png" Margin="10,10,1195,635" Source="backbutton.png" Stretch="Fill" Width="75" Height="75"/>
+        <Label x:Name="Title" Content="Enter Pin" Height="62" Margin="385,29,668,0" FontSize="48" VerticalAlignment="Top" FontWeight="Bold" Foreground="White"/>
         <Grid Height="500" Margin="385,91,380,129" Width="515" Background="#FF555555">
             <TextBox x:Name="textBox" TextWrapping="Wrap" Margin="77,26,94,420" TextChanged="textBox_TextChanged" FontFamily="Segoe UI Black" FontSize="36"/>
             <Button x:Name="button" Content="4" Margin="99,183,346,247" Width="70" Height="70" Background="{x:Null}" BorderBrush="{x:Null}" Click="button_Click" Foreground="White" FontSize="50" FontFamily="Segoe UI Black"/>
